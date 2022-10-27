@@ -120,7 +120,7 @@ function rechteckeRechts() {
   fill(random(0, 360), 100, 100, 100);
   push();
   rotate(radians(45));
-  rect(x2, y2, 2, -400);
+  rect(x2, y2, 2, -height);
   pop();
   x2 = x2 + 2;  
 }
@@ -129,7 +129,7 @@ function rechteckeLinksUnten() {
   //push();
   rotate(radians(45));
   translate(0, 100);
-  rect(x3, y3, 2, 400);
+  rect(x3, y3, 2, height);
   //pop();
   x3 = x3 + 2;  
 }
